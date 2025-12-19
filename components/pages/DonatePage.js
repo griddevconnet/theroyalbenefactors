@@ -13,23 +13,10 @@ export default function DonatePage() {
   const momoAccounts = [
     {
       provider: 'MTN Mobile Money',
-      number: '0XX XXX XXXX',
-      name: 'Royal Benefactors',
+      merchantId: '685791',
+      number: '0541756137',
+      name: 'RBEEZCARE 2025 Ventures',
       color: 'from-yellow-400 to-yellow-600',
-      icon: '📱'
-    },
-    {
-      provider: 'Vodafone Cash',
-      number: '0XX XXX XXXX',
-      name: 'Royal Benefactors',
-      color: 'from-red-500 to-red-700',
-      icon: '📱'
-    },
-    {
-      provider: 'AirtelTigo Money',
-      number: '0XX XXX XXXX',
-      name: 'Royal Benefactors',
-      color: 'from-blue-500 to-blue-700',
       icon: '📱'
     }
   ]
@@ -86,11 +73,11 @@ export default function DonatePage() {
                 Support Our <span className="text-gradient">Mission</span>
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Send your donation directly to any of our Mobile Money accounts below. Every contribution makes a difference!
+                Send your donation directly to our MTN Mobile Money account below. Every contribution makes a difference!
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="grid md:grid-cols-1 gap-8 mb-16">
               {momoAccounts.map((account, index) => (
                 <motion.div
                   key={account.provider}
@@ -110,9 +97,14 @@ export default function DonatePage() {
                       <p className="text-sm text-gray-500 mb-2">Account Name</p>
                       <p className="text-lg font-semibold text-black">{account.name}</p>
                     </div>
+
+                    <div className="mb-6">
+                      <p className="text-sm text-gray-500 mb-2">Merchant ID</p>
+                      <p className="text-lg font-semibold text-black">{account.merchantId}</p>
+                    </div>
                     
                     <div className="mb-6">
-                      <p className="text-sm text-gray-500 mb-2">Mobile Money Number</p>
+                      <p className="text-sm text-gray-500 mb-2">Merchant Number</p>
                       <p className="text-2xl font-bold text-primary-orange mb-3">{account.number}</p>
                     </div>
 
@@ -150,8 +142,8 @@ export default function DonatePage() {
               <div className="grid md:grid-cols-3 gap-8 text-left">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border-2 border-white/20">
                   <div className="text-4xl mb-3">1️⃣</div>
-                  <h4 className="text-xl font-bold mb-2">Choose a Provider</h4>
-                  <p className="text-white/90">Select your preferred Mobile Money provider from the options above.</p>
+                  <h4 className="text-xl font-bold mb-2">Use MTN Mobile Money</h4>
+                  <p className="text-white/90">Open your MTN Mobile Money app or dial the USSD code.</p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border-2 border-white/20">
                   <div className="text-4xl mb-3">2️⃣</div>

@@ -141,17 +141,43 @@ export default function AboutPage() {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-                Our <span className="text-gradient">Story</span>
+                The History of <span className="text-gradient">Royal Benefactors</span>
               </h2>
               <div className="space-y-4 text-gray-600 text-lg">
+                <p className="font-semibold text-black">Helping the Needy As We Can</p>
+                <p className="font-semibold text-black">The Beginning: A Young Heart&apos;s Vision</p>
                 <p>
-                  Founded in 2010, Royal Benefactors began with a simple mission: to create meaningful change in communities that needed it most. What started as a small group of volunteers has grown into a thriving organization touching thousands of lives.
+                  Royal Benefactors was born from the compassionate heart of a 16-year-old girl who refused to look away from the suffering around her. Growing up, she had always felt drawn to helping children in need, carrying a dream that one day she would create something meaningful to serve her community. But like many young dreamers, she wasn&apos;t sure where to begin.
+                </p>
+                <p className="font-semibold text-black">A Moment of Clarity</p>
+                <p>
+                  The turning point came through a simple but profound realization. Even with loving parents and a home to shelter her, life sometimes felt difficult. This thought led her to a powerful question: if things could be hard for someone with family and a roof overhead, what about those who had neither? Where did homeless people sleep when the rains came? How did they find their next meal, day after day?
                 </p>
                 <p>
-                  Over the years, we&apos;ve expanded our reach and deepened our impact, always staying true to our core values of compassion, integrity, and excellence. We believe that every person deserves access to basic necessities and opportunities to thrive.
+                  These questions wouldn&apos;t leave her alone. They demanded action.
+                </p>
+                <p className="font-semibold text-black">Taking the First Steps</p>
+                <p>
+                  She knew her parents would support her vision if they could, but she also understood that creating real change required more than good intentions. So she turned to her closest friend, sharing her heart and her dream. He believed in her vision and became the first investor in what would become Royal Benefactors.
+                </p>
+                <p className="font-semibold text-black">A Movement Begins</p>
+                <p>
+                  Word spread among friends, and what started as one person&apos;s dream began to grow into a shared mission. Friends came forward, offering their support and resources. As the circle widened, more and more people joined, drawn together by a common desire to make a difference in the world.
+                </p>
+                <p className="font-semibold text-black">Unity in Purpose</p>
+                <p>
+                  The strength of Royal Benefactors has always been in its unity. Young people who could have simply gone about their own lives chose instead to stand together for those who had no one standing with them. This collective spirit, this determination to be the change they wanted to see, became the foundation&apos;s greatest asset.
+                </p>
+                <p className="font-semibold text-black">Making It Official</p>
+                <p>
+                  Through their shared commitment and growing momentum, the group made their mission official, establishing Royal Benefactors as a formal association. The name itself reflects their vision: to be benefactors, givers of good, approaching their work with the dignity and commitment that every person in need deserves.
+                </p>
+                <p className="font-semibold text-black">The Mission Continues</p>
+                <p>
+                  Today, Royal Benefactors stands as proof that age is no barrier to making a real difference in the world. What began with one teenager&apos;s refusal to accept suffering as inevitable has grown into an organization dedicated to helping the needy in whatever ways possible, one person, one family, one community at a time.
                 </p>
                 <p>
-                  Today, we work across multiple sectors including education, healthcare, food security, and community development, partnering with local organizations and volunteers to create sustainable solutions.
+                  The foundation&apos;s work continues, driven by that same question that started it all: If we can help, how can we not?
                 </p>
               </div>
             </motion.div>
@@ -164,7 +190,7 @@ export default function AboutPage() {
               className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl"
             >
               <img
-                src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80"
+                src="/images/about%203.jpeg"
                 alt="Our story"
                 className="w-full h-full object-cover"
               />

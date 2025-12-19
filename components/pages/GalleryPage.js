@@ -14,7 +14,7 @@ export default function GalleryPage() {
   const galleryItems = [
     {
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80',
+      src: '/images/about.jpeg',
       title: 'Food Distribution Drive',
       description: 'Providing meals to 500+ families in need',
       category: 'food'
@@ -29,7 +29,7 @@ export default function GalleryPage() {
     },
     {
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
+      src: '/images/about%202.jpeg',
       title: 'Medical Camp',
       description: 'Free health checkups for 1000+ people',
       category: 'healthcare'
