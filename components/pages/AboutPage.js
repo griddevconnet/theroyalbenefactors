@@ -29,45 +29,80 @@ export default function AboutPage() {
 
   const executives = [
     {
-      name: '*********',
-      position: '*********',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80',
-      bio: '*********',
+      name: 'Grace Adjei Frimpong',
+      position: 'President',
+      image: '/images/Grace%20Adjei%20Frimpong.jpeg',
+      bio: 'Kwame Nkrumah University of Science and Technology — Hospitality and Tourism Management',
       social: { linkedin: '#', twitter: '#', email: '#' }
     },
     {
-      name: '*********',
-      position: '*********',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80',
-      bio: '*********',
+      name: 'Rebecca Adwoa Kankam',
+      position: 'Vice President',
+      image: '/images/Rebecca%20Adwoa%20Kankam.jpeg',
+      bio: 'University of Cape Coast — Nutrition and Dietetics',
       social: { linkedin: '#', twitter: '#', email: '#' }
     },
     {
-      name: '*********',
-      position: '*********',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80',
-      bio: '*********',
+      name: 'Nora Baiden Mensah',
+      position: 'Main Organizer',
+      image: '/images/Nora%20Baiden%20Mensah.jpeg',
+      bio: 'University of Cape Coast — Food and Nutrition',
       social: { linkedin: '#', twitter: '#', email: '#' }
     },
     {
-      name: '*********',
-      position: '*********',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80',
-      bio: '*********',
+      name: 'Adjei Frimpong Kwabena',
+      position: 'Deputy Organizer',
+      image: '/images/Adjei%20Frimpong%20Kwabena.jpeg',
+      bio: 'AMUSTED (Main Campus) — BSc. Agriculture in Business',
       social: { linkedin: '#', twitter: '#', email: '#' }
     },
     {
-      name: '*********',
-      position: '*********',
-      image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80',
-      bio: '*********',
+      name: 'Nathaniel Agyei Fosu Marfo',
+      position: 'Secretary',
+      image: '/images/Nathaniel%20Agyei%20Fosu%20Marfo.jpeg',
+      bio: 'Kwame Nkrumah University of Science and Technology — Mathematics',
       social: { linkedin: '#', twitter: '#', email: '#' }
     },
     {
-      name: '*********',
-      position: '*********',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80',
-      bio: '*********',
+      name: 'Precious Ama Agyemang',
+      position: 'Main Counselor',
+      image: '/images/Precious%20Ama%20Agyemang.jpeg',
+      bio: 'University of Professional Studies, Accra — BSc in Information Technology',
+      social: { linkedin: '#', twitter: '#', email: '#' }
+    },
+    {
+      name: 'Angela Gyaamah',
+      position: 'Assist Counselor',
+      image: '/images/Angela%20Gyaamah.jpeg',
+      bio: 'Tepa Nursing and Midwifery Training College — Midwifery',
+      social: { linkedin: '#', twitter: '#', email: '#' }
+    },
+    {
+      name: 'Dressler Osei Bempah',
+      position: 'Financial Secretary (Main)',
+      image: '/images/Dressler%20Osei%20Bempah.jpeg',
+      bio: 'Garden City University — BSc Midwifery',
+      social: { linkedin: '#', twitter: '#', email: '#' }
+    },
+    {
+      name: 'Sarah Adongo',
+      position: 'Financial Secretary (Assistant)',
+      image: '/images/Sarah%20Adongo.jpeg',
+      bio: 'Kwame Nkrumah University of Science and Technology — BSc. Agribusiness',
+      social: { linkedin: '#', twitter: '#', email: '#' }
+    },
+    {
+      name: 'Esther Yaa Asieduwaa Boafo',
+      position: 'Location Manager',
+      image: '/images/Esther%20Yaa%20Asieduwaa%20Boafo.jpeg',
+      bio: 'College of Health Yamfo — Community Mental Health',
+      social: { linkedin: '#', twitter: '#', email: '#' }
+    },
+    {
+      name: 'Gyamfuah Owusu Ansah',
+      position: 'Patron',
+      image: '/images/Gyamfuah%20Owusu%20Ansah.jpeg',
+      bio: 'United Kingdom',
       social: { linkedin: '#', twitter: '#', email: '#' }
     },
   ]
