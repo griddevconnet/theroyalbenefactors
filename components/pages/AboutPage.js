@@ -113,7 +113,7 @@ export default function AboutPage() {
                   Founded in 2010, Royal Benefactors began with a simple mission: to create meaningful change in communities that needed it most. What started as a small group of volunteers has grown into a thriving organization touching thousands of lives.
                 </p>
                 <p>
-                  Over the years, we've expanded our reach and deepened our impact, always staying true to our core values of compassion, integrity, and excellence. We believe that every person deserves access to basic necessities and opportunities to thrive.
+                  Over the years, we&apos;ve expanded our reach and deepened our impact, always staying true to our core values of compassion, integrity, and excellence. We believe that every person deserves access to basic necessities and opportunities to thrive.
                 </p>
                 <p>
                   Today, we work across multiple sectors including education, healthcare, food security, and community development, partnering with local organizations and volunteers to create sustainable solutions.
@@ -265,7 +265,7 @@ export default function AboutPage() {
               Join Our Team
             </h2>
             <p className="text-xl text-white/90 mb-8">
-              We're always looking for passionate individuals to join our mission. Whether as a volunteer, partner, or team member, there's a place for you.
+              We&apos;re always looking for passionate individuals to join our mission. Whether as a volunteer, partner, or team member, there&apos;s a place for you.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}

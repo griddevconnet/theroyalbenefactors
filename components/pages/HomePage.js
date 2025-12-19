@@ -288,7 +288,7 @@ export default function HomePage() {
               Our <span className="text-gradient">Impact Areas</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              We focus on key areas where we can make the most significant difference in people's lives.
+              We focus on key areas where we can make the most significant difference in people&apos;s lives.
             </p>
           </motion.div>
 

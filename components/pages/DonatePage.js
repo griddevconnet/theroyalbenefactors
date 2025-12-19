@@ -156,7 +156,7 @@ export default function DonatePage() {
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border-2 border-white/20">
                   <div className="text-4xl mb-3">2️⃣</div>
                   <h4 className="text-xl font-bold mb-2">Copy the Number</h4>
-                  <p className="text-white/90">Click the "Copy Number" button to copy the account number.</p>
+                  <p className="text-white/90">Click the &quot;Copy Number&quot; button to copy the account number.</p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border-2 border-white/20">
                   <div className="text-4xl mb-3">3️⃣</div>

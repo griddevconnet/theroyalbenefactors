@@ -68,7 +68,7 @@ export default function ContactPage() {
               Get In <span className="text-gradient">Touch</span>
             </h1>
             <p className="text-xl text-gray-300">
-              Have questions or want to get involved? We'd love to hear from you. Reach out and let's make a difference together.
+              Have questions or want to get involved? We&apos;d love to hear from you. Reach out and let&apos;s make a difference together.
             </p>
           </motion.div>
         </div>
@@ -112,7 +112,7 @@ export default function ContactPage() {
                 Send Us a <span className="text-gradient">Message</span>
               </h2>
               <p className="text-gray-600 mb-8">
-                Fill out the form and our team will get back to you as soon as possible. We're here to answer your questions and discuss how you can make an impact.
+                Fill out the form and our team will get back to you as soon as possible. We&#39;re here to answer your questions and discuss how you can make an impact.
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-6">

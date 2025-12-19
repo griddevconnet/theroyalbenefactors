@@ -77,7 +77,7 @@ export default function VolunteerPage() {
               Why <span className="text-gradient">Volunteer</span> With Us?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Volunteering with Royal Benefactors is more than just giving your time—it's about being part of a movement for positive change.
+              Volunteering with Royal Benefactors is more than just giving your time—it&apos;s about being part of a movement for positive change.
             </p>
           </motion.div>
 
